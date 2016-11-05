@@ -1,0 +1,46 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.SearchBar {
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+}
+
+.SearchBar .label {
+  margin-right: 5px;
+}
+
+.SearchBar input {
+  border: 1px solid #ff7d7d;
+}
+
+.InputGroup * {
+  font-size: 2em;
+}
+
+.InputGroup > i {
+  position: relative;
+  right: 36px;
+  padding: 4px 1px 1px 1px;
+  cursor: pointer;
+
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+  color: rgb(0, 0, 0);
+}
+
+.InputGroup > i:hover {
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+  color: rgb(134, 219, 255);
+}
+
+.InputGroup > input {
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 36px;
+  border-radius: 20px;
+}

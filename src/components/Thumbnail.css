@@ -1,0 +1,35 @@
+.Thumbnail {
+  display: block;
+
+  margin: 15px 10px 15px 10px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+}
+
+.Thumbnail:hover {
+  box-shadow: 0px 0px 5px 3px #ff5858;
+}
+
+.Thumbnail img {
+  display: block;
+  width: auto;
+}
+
+.Thumbnail div {
+  display: block;
+  padding-left: 5px;
+  padding-right: 10px;
+  border-left: 5px solid #ff6363;
+  width: 460px;
+  font-size: 0.9em;
+  word-wrap: break-word;
+}
+
+.nowplaying {
+  box-shadow: 0px 0px 5px 3px #ff5858;
+}
+
+.nowplaying div {
+  background-color: #ffafbd;
+}

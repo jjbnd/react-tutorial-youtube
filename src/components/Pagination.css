@@ -1,0 +1,21 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.Pagination > i {
+  margin: 10px;
+  cursor: pointer;
+
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  color: rgb(0, 0, 0);
+}
+
+.Pagination > i:hover {
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+  color: rgb(134, 219, 255);
+}

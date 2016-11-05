@@ -1,0 +1,43 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ContainerHeader {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  width: auto;
+  align-items: center;
+}
+
+.ContainerBody {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+  width: auto;
+  align-items: center;
+}
+
+.PlayerArea {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.SideVideoList {
+  display: flex;
+  flex-direction: column;
+
+  max-height: 650px;
+  overflow-y: scroll;
+
+  border-left: 3px solid #ff5858;
+  margin-left: 15px;
+  padding-left: 5px;
+}
